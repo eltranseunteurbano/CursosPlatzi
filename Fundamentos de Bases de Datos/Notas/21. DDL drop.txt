@@ -1,0 +1,9 @@
+DDL DROP
+
+	Se encarga de eliminar una base de datos, tabla, vida o dato.
+
+	SINTAXIS
+	DROP (objeto por eliminar) (nombre del objeto)
+
+	DROP TABLE test_db;
+

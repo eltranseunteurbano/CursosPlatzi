@@ -1,0 +1,10 @@
+NORMALIZACIÓN:
+Nos ayuda a dejar todo de una forma normal. Esto obedece a las 12 reglas de Codd y nos permiten separar componentes en la base de datos:
+
+Primera forma normal (1FN): Atributos atómicos, no tener campos repetidos
+
+Segunda forma normal (2FN): Se debe cumplir la primera forma normal, cada campo de la tabla de depender de una clave única.
+
+Tercera forma normal (3FN): Se debe cumplir la 2FN, y que los campos que NO son clave, NO deben tener depedencias.
+
+Cuarta forma normal (4FN); Debe cumplir 3FN y los campos multivaluados se identifican por clave única

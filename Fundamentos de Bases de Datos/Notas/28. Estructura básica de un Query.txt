@@ -1,0 +1,18 @@
+Los queries son la forma en la que estructuramos las preguntas que se harán a la base de datos.
+
+Se divide en 3 partes
+	- Select
+	- From
+	- Where = No es obligatorio
+
+	* = Asterisco significa que se seleccionan todos los datos, no hay filtro.
+
+
+Ejemplo
+
+	SELECT city,
+	FROM people,
+	WHERE active = true,
+	GROUP BY city
+	ORDER BY total DESC
+	HAVING total >= 2;

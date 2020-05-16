@@ -1,0 +1,13 @@
+RELACIONES
+Se representan con un rombo.
+
+	- Cardinalidad: Cuantos de un lado, pertenecen a otro lado, hay diferentes tipos
+		- 1 a 1: Es cuando un lado tiene uno del otro lado, y visceversa, por ejemplo: una persona puede tener una base de datos personales y una base de datos perosnales solo puede tener una persona. Se representa con este conector -|----|- y cunado son estrictamente 1 a 1, es -||----||-, la linea es sin puntear.
+		
+		- 0 a 1: Es cuando un lado tiene uno de un lado pero el otro no, es algo opcional, por ejemplo, un usuario tiene una sesión actual, pero la sesión actual no necesariamente debe tener un usuario. Se representan como el anterior pero en linea punteada
+
+		- 1 a N: Es cuando un lado puede tener muchos del otro y el otro solo puede tener 1, por ejemplo una persona puede tener muchos carros, pero un carro solo puede ser de 1 persona, se representan con -|---OE (pata de gallina al final)
+
+		- 0 a N: Es cuando un lado puede tener muchos de un lado y el otro lado puede no tener ninguno del otro, por ejemplo en un hospital muchos pacientes pueden estar en una habitación, pero en una habitación puede no haber pacientes. Se representa igual que al anterior pero con linea punteada
+
+		- N a N: Es cuando de un lado puede tener muchas de un lado y visceversa, por ejemplo cuando un estudiante puede tener muchas clases, pero una clase puede tener muchos estudiantes, se representa 3-----E

@@ -1,0 +1,22 @@
+CONSTRAINTS (RESTRICCIONES)
+Son las reglas de la base de datos, respecto a que datos puedo meter o no, exsiten diferentes tipos:
+
+	NOT NULL: Se asegura que la columna no tenga valores nulos, por ejemplo en una columna de nombre, no permitir guardar el dato si no tiene un nombre, esto permite poner datos obligatorios.
+
+	UNIQUE: Se asegura que cada valor en la columna no se repita
+
+	PRIMAY KEY: Es una combinación de NOT NULL y UNIQUE. Nos ayuda a hacer las relaciones entre entidades o tablas.
+
+	FOREIGN KEY: La primary key de una tabla se convierte en la foreign key de otra tabla que se quiere relacionar
+
+	CHECK: Se asegura que el valor en la columna cumpla una condición personalizada
+
+	DEFAULT: Colocar un valor por defecto cuando no hay un valor especifico.
+
+	INDEX: Se crea por columna para permitir búsquedas más rápidas
+
+
+Texto: CHAR(n), VARCHAR(n), TEXT
+Números: INTEGER, BIGINT, SMALLINT, DECIMAL(n,s), NUMERIC(n,s)
+Fecha/hora: DATE, TIME, DATETIME, TIMESTAMP
+Lógicos: BOOLEAN

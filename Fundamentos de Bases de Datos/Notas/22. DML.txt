@@ -1,0 +1,32 @@
+DML
+
+Se trata del contenido de la base de datos. Son las siglas de Data Manipulation Langugage
+	
+	- Insert: Inserta o agrega nuevos registros en la tabla.
+	- Update: Actualiza o modifica los datos que ya existen.
+	- Delete: Elimina el contenido de una tabla
+	- Select: Trae información de la base de datos
+
+
+	INSERT INTO (nombre de la tabla) (campos a registrar)
+	VALUES ( valores que asignaré a los campos);
+
+	INSERT INTO people (last_name, first_name, address, city)
+	VALUES ('Hernandez','Laura', 'Calle 21', 'Monterry');
+
+	UPDATE (nombre de la tabla)
+	SET (nombre de la variable) = (nuevo calor), (nombre de la variable) = (nuevo calor)
+	WHERE (id) = (id del objeto a cambiar)
+
+	UPDATE people
+	SET first_name = 'Camilo'
+	WHERE city = 'Merida
+
+	DELETE FROM (nombre de la tabla)
+	WHERE (id) = (id del objeto);
+
+	DELETE FROM people
+	WHERE person_id = 1;
+
+	SELECT (variable)
+	FROM (nombre de la tabla)

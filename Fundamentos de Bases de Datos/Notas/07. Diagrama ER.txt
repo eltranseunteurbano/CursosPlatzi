@@ -1,0 +1,18 @@
+El diagrama ER, es el diagrama donde se relacionan las entidades y atributos con los diferentes tiposde cardinalidad
+
+Proyectos
+	Nombre
+	Fecha
+	Colaboradores
+	Descripción
+	Imágenes
+	Categoría
+	Likes
+	
+Colaboradores
+	Nombre
+	Perfil de linkedin
+	Perfil behance
+	perfil instagram
+	perfil dribbble
+	perfil portfolio

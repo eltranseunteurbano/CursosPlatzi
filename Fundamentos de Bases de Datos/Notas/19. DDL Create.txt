@@ -1,0 +1,25 @@
+SUBLENGUAJES
+
+DDL  -> Data Definition Language
+
+Nos ayuda a crear la estructura de una base de datos, las relaciones, las entidades, etc.
+
+	COMANDOS
+		- Create: Nos ayuda a crear como bases de datos, tablas, vistas, indice, etc.
+			* Bases de datos o schemas
+			* Tablas = Proyección o traducción a SQL de las entidades
+			* Vistas = Proyección de los datos entendibles para alguien, combinar las tablas solo para visualización
+
+			SENTENCIAS
+				- CREATE DATABASE text_db; //Crea la base de datos
+				- USE DATABASE test_db;    // Para usar una base de datos
+				- CREATE TABLE people (    / Crea una tabla
+						person_id int,
+						last_name varchar(255);
+						first_name varchar(255);
+						addres varchar(255);
+						city varchar(255);
+						);
+
+		- Alter: Nos ayuda a modificar o alterar , como por ejemplo cambiando el tipo de dato de una columna o agregar o quitar una columna de una tabla7
+		- Drop: Nos ayuda a 

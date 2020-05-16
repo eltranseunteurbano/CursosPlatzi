@@ -1,0 +1,24 @@
+ENTIDADES
+Es algo parecido a un objeto de programación y representa algo en el mundo real o abstracto, se representan con un cuadrado y se ponen en plural.
+
+Hay 2 tipos de entidades:
+	Entidades fuertes: Entidades que NO necesitan una entidad fuerte para existir
+	Entidades debiles: Son una entidad que necesita de una entidad fuerte para poder existir, estos se representan con un doble cuadro. Pueden ser debiles por identidad y por existencia.
+
+
+ATRIBUTOS
+Son aquellas propiedades o caracteristicas que tienen las entidades. Existen diferentes tipos:
+
+	Atributos Simples: Son propiedades que no tienen más caracteristicas internamente. Este se representa con un circulo.
+	
+	Atributos Compuestos: Son propiedades que internamente tienen más propiedades o multivaluados porque tienen multiples valores, se representan con un doble circulo.
+	
+	Atributos Especiales: Son propiedades o caracteristicas que puedes inferir a partir de otras propiedades, estas se representan con un circulo punteado.
+
+	Atributos diferenciables: Son los atributos que diferencian una entidad de la otra y esta se representa con un cirulo y adicional tienen un subrayado, por ejemplo un ID.
+
+Hay 2 tipos de atributos:
+	Naturales: Son aquellos que son inherentes al objeto como el número de serie
+	Artificiales: No son inherentes al objeto y se le asigna de manera arbitraria.
+
+RELACIONES

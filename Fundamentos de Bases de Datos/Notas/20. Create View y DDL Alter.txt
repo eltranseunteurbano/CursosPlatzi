@@ -1,0 +1,11 @@
+CREATE VIEW
+
+	SINTAXIS
+	CREATE VIEW (nombre de la vista, debe empezar con la "v") AS (palabra reservada)
+
+	Ejemplo
+	CREATE VIEW v_brasil_customers AS
+		SELECT customer_name,
+			contact_name
+		FROM customers
+		WHERE country = "Brasil";

@@ -1,0 +1,7 @@
+El lenguaje SQL -> Structure Query Language
+
+Se crea para estandarizar las consultas de diferentes archivos, las empresas creaban sus propios RMBS y no se podían conectar.
+
+Es un lenguaje muy estructurado 
+
+borrar, se puede borrar una columna, una tabla o la abse de datos.

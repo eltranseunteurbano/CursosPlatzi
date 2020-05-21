@@ -1,0 +1,8 @@
+Sapper añade caracteristicas a Svelte.
+    - Añade manejo de rutas
+    - Server Side Render
+    - Mejoramiento del SEO
+    - Manejo de preload, prefetch
+    - Service Worker, sería una PWA
+    - Exportar sitio a static
+    - Compilar nuestro sitio y enviarlo a producción con un servidor de express

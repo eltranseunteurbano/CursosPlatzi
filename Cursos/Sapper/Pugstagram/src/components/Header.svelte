@@ -1,36 +1,35 @@
 <script>
-  import { likeCount } from '../store/store.js'
-
+  import { likeCount } from "../store/store.js";
+  export let segment;
 </script>
 
 <style>
-
-header {
+  .Header {
     background-color: white;
     position: fixed;
     width: 100%;
-    z-index: 2;
-
+  }
+  .Header-container {
     grid-template-columns: minmax(auto, 936px);
     display: grid;
     justify-content: center;
     background-color: white;
     border-bottom: 1px solid rgba(38, 38, 38, 0.4);
   }
-  .wrapper {
+  .Header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.5em;
   }
-  .wrapper-nav ul {
+  .Header ul {
     list-style: none;
   }
-  .wrapper-nav li {
+  .Header li {
     display: inline-block;
     margin: 0 0 0 1em;
   }
-  .wrapper-nav i {
+  .Header i {
     font-size: 16px;
     color: rgba(38, 38, 38, 0.7);
     cursor: pointer;
@@ -61,22 +60,32 @@ header {
     left: 0;
   }
 
+  [aria-current] i {
+    color: #bc1888;
+  }
 </style>
 
-<header>
-
-    <div class="wrapper">
-        <div class="wrapper-logo">
-            <h1>Pugstagram</h1>
-        </div>
-
-        <nav class="wrapper-nav">
-            <ul>
-                <li> <i class="fas fa-heart"></i> {$likeCount > 0 ? $likeCount : ''} </li>
-                <li> <i class="fas fa-user-alt"/> </li>
-            </ul>
-        </nav>
-
+<div class="Header">
+  <div class="Header-container">
+    <div class="Header-content">
+      <a href="/" class="Header-logo">
+        <h1>Pugstagram</h1>
+      </a>
+      <div class="Header-nav">
+        <ul>
+          <li>
+            <i class="fas fa-heart" />
+            {$likeCount === 0 ? '' : $likeCount}
+          </li>
+          <li>
+            <a
+              aria-current={segment === 'profile' ? 'page' : undefined}
+              href="profile">
+              <i class="fas fa-user-alt" />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-</header>
+  </div>
+</div>

@@ -9,3 +9,6 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 - [Curso práctido de python: Creación de un CRUD ](https://platzi.com/clases/python-practico/ "Curso práctido de python: Creación de un CRUD ")
 
 - [Curso de Svelte ](https://platzi.com/clases/svelte/ "Curso de Svelte ")
+
+- [Curso de Sapper ](https://platzi.com/clases/sapper/ "Curso de Sapper ")
+

@@ -5,9 +5,10 @@
   "description": "Proyecto del curso de svelte",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production",
-    "deploy": "gh-pages -d dist"
+    "dev": "sapper dev",
+    "start": "node __saper__/build",
+    "build": "sapper build",
+    "export": "sapper export"
   },
   "keywords": [
     "Svelte"
@@ -15,7 +16,10 @@
   "author": "Jaime Burbano",
   "license": "MIT",
   "dependencies": {
+    "compression": "^1.7.4",
     "gh-pages": "^2.2.0",
+    "polka": "^0.5.2",
+    "sirv": "^0.4.2",
     "svelte": "^3.22.3"
   },
   "devDependencies": {
@@ -24,6 +28,7 @@
     "@babel/preset-env": "^7.9.6",
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.3.0",
+    "sapper": "^0.27.13",
     "svelte-loader": "^2.13.6",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",

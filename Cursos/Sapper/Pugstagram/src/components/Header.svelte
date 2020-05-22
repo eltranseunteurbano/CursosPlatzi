@@ -12,6 +12,7 @@
   .Header {
     background-color: white;
     position: fixed;
+    z-index: 1;
     width: 100%;
   }
   .Header-container {
@@ -19,7 +20,7 @@
     display: grid;
     justify-content: center;
     background-color: white;
-    border-bottom: 1px solid rgba(38, 38, 38, 0.4);
+    border-bottom: 1px solid rgba(38, 38, 38, 0.2);
   }
   .Header-content {
     display: flex;

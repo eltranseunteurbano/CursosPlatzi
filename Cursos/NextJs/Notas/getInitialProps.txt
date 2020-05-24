@@ -1,0 +1,15 @@
+Es algo especifico de Next.Js
+
+Esto es necesario cuando se hacen llamados al API
+Se usa para llenar la información inicial que se necesita para mostrar gráficamente el sitio
+
+static async getInitialProps(){
+    //Aqui traemos los datos
+
+    let request = await fetch( API )
+    let datos = await request.json()
+    return { datos }
+}
+
+
+SOLO FUNCIONA EN ARCHIVOS DE LAS PAGINAS "pages" Y CON COMPONENTES DE NEXT

@@ -1,0 +1,9 @@
+Es un framework para construir aplicaciones web modernas en React
+
+SERVER SIDE RENDERING:
+    - Mejora el performance y el SEO, es algo automático en next
+
+
+¿Que ventajas tiene?
+Mejora el performance y UX. 
+Indexa en todos los servicios

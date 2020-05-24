@@ -1,0 +1,4 @@
+El prefetch solo carga el payload, el html, css y javascript, no carga las getInitialProps
+
+
+SOLO FUNCIONA EN PRODUCCIÓN

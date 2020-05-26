@@ -14,3 +14,5 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso de Next Js ](https://platzi.com/clases/next-js/ "Curso de Next Js ")
 
+- [Curso de Vue Js ](https://platzi.com/clases/vuejs/ "Curso de Vue Js ")
+

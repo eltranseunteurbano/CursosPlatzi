@@ -1,0 +1,6 @@
+VUE JS
+
+Es un framework progresivo:
+    - Tiene una curva de aprendizaje muy fácil 
+    - Es un framework muy versatil se puede empezar a crear proyectos pequeños muy rápido y empezar a escalarlo
+    - Tiene un muy buen performance, pues tiene muy poco peso y hace las optimizaciones en el virtual DOM

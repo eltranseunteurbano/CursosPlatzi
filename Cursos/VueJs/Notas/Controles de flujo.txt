@@ -1,0 +1,6 @@
+v-bind: Enlanza dinámicamente uno o ma atributos del elemento. Se puede abreviar a ":"
+v-if: Condición para montar o desmontar elementos en el DOM
+v-elseif-if: Agregar otra opcion de resultado al if
+v-else: Condición en caso de no cumplirse las otras opciones
+
+v-show: muestra u oculta el elemento en el DOM con un display none

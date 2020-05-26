@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <div id="app">
-
+        
+        <img v-bind:src="img" v-bin:alt="name">
         <h1>{{ name }}
             <span v-if="changePercent > 0">&#x1F44D;</span>
             <span v-else-if="changePercent < 0">&#x1F44E;</span>
             <span v-else>&#x1F91E;</span>
-
-            <span v-show="changePercent > 0">&#x1F44D;</span>
-            <span v-show="changePercent < 0">&#x1F44E;</span>
-            <span v-show="changePercent == 0">&#x1F91E;</span>
         </h1>
-        <img v-bind:src="img" v-bin:alt="name">
+        
+        <ul>
+            <li v-for="(p,i) in prices" v-bin:key="p">{{ i }} - {{ p }}</li>
+        </ul>
+
+        <ul>
+            <li v-for="(p,i) in pricesWithDays" v-bin:key="p"> {{i}}: {{p.day}} - {{ p.value }}</li>
+        </ul>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./index.js" ></script>

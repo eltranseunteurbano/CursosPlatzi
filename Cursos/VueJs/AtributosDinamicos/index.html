@@ -10,6 +10,7 @@
     <div id="app" v-bind:style="{ background: '#' + color }">
         
         <coin-detail
+        v-on:change-color="updateColor"
             v-bind:coin="btc">
         </coin-detail>
 

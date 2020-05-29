@@ -9,7 +9,7 @@ Vue.component('CoinDetail',{
     methods: {
         toggleShowPrices () {
             this.showPrices =! this.showPrices;
-            //this.color = this.color.split('').reverse().join('')
+            this.$emit('change-color', this.showPrices ? "FF93D2" : "3d3d3d")
         }
     },
     computed: {
@@ -74,4 +74,9 @@ new Vue({
             color: 'f4f4f4',
         }
     },
+    methods: {
+        updateColor( color ){
+            this.color = color || this.color.split('').reverse().join('')
+        }
+    }
 })

@@ -9,6 +9,7 @@ new Vue({
             changePercent: -10,
             price: 8400,
             color: 'f4f4f4',
+            value: 0,
             pricesWithDays: [
                 { day: 'Lunes', value: 8400 },
                 { day: 'Martes', value: 7900 },
@@ -30,7 +31,19 @@ new Vue({
     computed: {
         title(){
             return `${this.name} - ${this.symbol}`
-        }
+        },
+        convertedValue () {
+            if (!this.value){
+                return 0
+            }
+
+            if( this.price > 0){
+                return this.value / this.price
+            } else {
+                return "error"
+            }
+
+        },
     },
     methods: {
         toggleShowPrices () {

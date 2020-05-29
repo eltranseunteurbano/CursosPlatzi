@@ -1,0 +1,2 @@
+Es la forma de comunicar la información que ingresa el usuario y se guarde en una propiedad
+para después ser usada en el código

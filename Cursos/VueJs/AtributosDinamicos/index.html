@@ -15,6 +15,8 @@
             <span v-else-if="changePercent < 0">&#x1F44E;</span>
             <span v-else>&#x1F91E;</span>
         </h1>
+        <input type="number" v-model="value">
+        <span>{{convertedValue}}</span>
         <span class="button" v-on:click="toggleShowPrices">{{ showPrices ? '🙈 Ocultar Precios 🙈' : '🐵 Mostrar Precios 🐵' }}</span>
         <ul v-show="showPrices == true">
             <li class="uppercase" v-bind:class="{ orange: p.value == price, red: p.value < price, green: p.value > price }" v-for="(p,i) in pricesWithDays" v-bind:key="i"> {{i}}: {{p.day}} - {{ p.value }}</li>

@@ -77,6 +77,12 @@ new Vue({
             color: 'f4f4f4',
         }
     },
+    created() {
+        console.log('created...')
+    },
+    mounted() {
+        console.log('Mount...')
+    },
     methods: {
         updateColor( color ){
             this.color = color || this.color.split('').reverse().join('')

@@ -10,7 +10,7 @@
     <div id="app" v-bind:style="{ background: '#' + color }">
         
         <img v-bind:src="img" v-bind:alt="name" v-on:mouseover="toggleShowPrices" v-on:mouseout="toggleShowPrices">
-        <h1 v-bind:class="changePercent > 0 ? 'green' : 'red' ">{{ name }}
+        <h1 v-bind:class="changePercent > 0 ? 'green' : 'red' ">{{ title }}
             <span v-if="changePercent > 0">&#x1F44D;</span>
             <span v-else-if="changePercent < 0">&#x1F44E;</span>
             <span v-else>&#x1F91E;</span>

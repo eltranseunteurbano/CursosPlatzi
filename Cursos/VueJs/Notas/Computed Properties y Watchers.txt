@@ -1,0 +1,15 @@
+Propiedades Computadas
+
+Son propiedades generadas a través de otros valores. Son funciones dentro del objeto "computed" que retornan un valor.
+
+    computed: {
+        title() {
+            return `${this.name} - ${this.symbol}`
+        }
+    }
+
+
+Watchers
+
+Son funciones que ejecutan código y corresponden al nombre de la propiedad que se quiere observar.
+Esta funcion recibe 2 valores como parametros, el valor viejo y el valor nuevo

@@ -14,39 +14,82 @@
       </tr>
     </thead>
     <tbody>
-      <tr class="border-b border-gray-200 hover:bg-gray-100 hover:bg-orange-100">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="hidden sm:block"></td>
+      <tr
+        v-for="p in assets"
+        :key="p.id"
+        class="border-b border-gray-200 hover:bg-gray-100 hover:bg-orange-100"
+      >
+        <td>
+          <div class="h-6 w-6">
+            <img
+              :src="
+                `https://static.coincap.io/assets/icons/${p.symbol.toLowerCase()}@2x.png`
+              "
+              :alt="p.name"
+            />
+          </div>
+        </td>
+        <td>
+          <b>{{ p.rank | rank }}</b>
+        </td>
+        <td>
+          <router-link
+            :to="{ name: 'coin-detail', params: { id: p.id } }"
+            class="hover:underline text-green-500"
+            >{{ p.name }}</router-link
+          >
+          <small class="ml-1 text-gray-500">{{ p.symbol }}</small>
+        </td>
+        <td>{{ p.priceUsd | dollar }}</td>
+        <td>{{ p.marketCapUsd | dollar }}</td>
+        <td
+          :class="{
+            'text-red-500': p.changePercent24Hr < 0,
+            'text-green-500 font-bold': p.changePercent24Hr > 0
+          }"
+        >
+          {{ p.changePercent24Hr | percent }}
+        </td>
+        <td class="hidden sm:block">
+          <px-button @custom-click="goToCoin(p.id)">
+            <span>Detalle</span>
+          </px-button>
+        </td>
       </tr>
     </tbody>
   </table>
 </template>
 
 <script>
+import PxButton from '@/components/PxButton'
 export default {
-  name: "PxAssetsTable",
+  name: 'PxAssetsTable',
+
+  components: {
+    PxButton
+  },
 
   props: {
     assets: {
       type: Array,
       default: () => []
     }
+  },
+  methods: {
+    goToCoin(id) {
+      this.$router.push({ name: 'coin-detail', params: { id } })
+    }
   }
-};
+}
 </script>
 
 <style scoped>
 .up::before {
-  content: "👆";
+  content: '👆';
 }
 
 .down::before {
-  content: "👇";
+  content: '👇';
 }
 
 td {

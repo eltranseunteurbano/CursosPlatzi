@@ -96,9 +96,9 @@
             <px-button
               v-if="!m.url"
               @custom-click="getWebsite(m)"
-              :isLoading="mis - loading || false"
+              :isLoading="m.isLoading || false"
             >
-              <span>Obtener link</span>
+              <span v-if="!m.isLoading">Obtener link</span>
             </px-button>
             <a
               class="hover:underline text-green-500 transition ease-in-out duration-300 cursor-pointer"

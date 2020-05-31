@@ -3,8 +3,10 @@
     <thead>
       <tr class="bg-gray-100 border-b-2 border-gray-400">
         <th></th>
-        <th :class="{up: this.sortOrder === 1, down: this.sortOrder === -1}">
-          <span @click="changeSortOrder" class="underline cursor-pointer">Ranking</span>
+        <th :class="{ up: this.sortOrder === 1, down: this.sortOrder === -1 }">
+          <span @click="changeSortOrder" class="underline cursor-pointer"
+            >Ranking</span
+          >
         </th>
         <th>Nombre</th>
         <th>Precio</th>
@@ -90,7 +92,7 @@ export default {
       default: () => []
     }
   },
-    computed: {
+  computed: {
     filteredAssets() {
       const altOrder = this.sortOrder === 1 ? -1 : 1
       return this.assets
@@ -111,7 +113,7 @@ export default {
     goToCoin(id) {
       this.$router.push({ name: 'coin-detail', params: { id } })
     },
-    changeSortOrder(){
+    changeSortOrder() {
       this.sortOrder = this.sortOrder === 1 ? -1 : 1
     }
   }

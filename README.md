@@ -18,3 +18,7 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso de Spark AR ](https://platzi.com/clases/spark-ar/ "Curso de Spark AR ")
 
+
+
+### Escuela de Javascript
+ - [Curso de Javascript básico](https://platzi.com/clases/basico-javascript/ "Curso de Javascript básico")

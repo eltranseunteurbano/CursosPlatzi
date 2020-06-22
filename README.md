@@ -8,16 +8,37 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso práctido de python: Creación de un CRUD ](https://platzi.com/clases/python-practico/ "Curso práctido de python: Creación de un CRUD ")
 
-- [Curso de Svelte ](https://platzi.com/clases/svelte/ "Curso de Svelte ")
-
-- [Curso de Sapper ](https://platzi.com/clases/sapper/ "Curso de Sapper ")
-
-- [Curso de Next Js ](https://platzi.com/clases/next-js/ "Curso de Next Js ")
-
-- [Curso de Vue Js ](https://platzi.com/clases/vuejs/ "Curso de Vue Js ")
+- [Curso de Oratoria y Hablar en Público ](https://platzi.com/clases/sapper/ "Curso de Oratoria y Hablar en Público ")
 
 - [Curso de Spark AR ](https://platzi.com/clases/spark-ar/ "Curso de Spark AR ")
 
+### Carrera de Arquitecto Frontend
+
+- [Curso de Desarrollo Web Online](https://platzi.com/clases/html5-css3/ "Curso de Desarrollo Web Online")
+  
+- [Curso de HTML y CSS](https://platzi.com/clases/html-css/ "Curso de HTML y CSS")
+  
+- [Curso Práctico de HTML y CSS](https://platzi.com/clases/html-practico/ "Curso Práctico de HTML y CSS")
+  
+- [Curso de CSS Grid Layout](https://platzi.com/clases/css-grid-layout/ "Curso de CSS Grid Layout")
+  
+- [Curso Práctico de Maquetación en CSS](https://platzi.com/clases/practico-css/ "Curso Práctico de Maquetación en CSS")
+  
+- [Curso de Responsive Design](https://platzi.com/clases/responsive-design/ "Curso de Responsive Design")
+  
+- [Curso Básico de Javascript](https://platzi.com/clases/basico-javascript/ "Curso Básico de Javascript")
+
+- [Curso de Fundamentos de Javascript](https://platzi.com/clases/fundamentos-javascript/ "Curso de Fundamentos de Javascript")
+
+- [Curso de Tailwind CSS](https://platzi.com/clases/tailwind-css/ "Curso de Tailwind CSS")
+
+- [Curso de Single Page Application con Javascript Vanilla](https://platzi.com/clases/spa-javascript/ "Curso de Single Page Application con Javascript Vanilla")
+
+- [Curso de Vue Js ](https://platzi.com/clases/vuejs/ "Curso de Vue Js ")
+
+- [Curso de Svelte ](https://platzi.com/clases/svelte/ "Curso de Svelte ")
+
+- [Curso de Sapper ](https://platzi.com/clases/sapper/ "Curso de Sapper ")
 ***
 
 ### Escuela de Inglés
@@ -33,9 +54,9 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 ### Escuela de Javascript
 1. [Curso de Prework: Buenas Prácticas y Entorno de Desarrollo](https://platzi.com/clases/prework/ "Curso de Prework: Buenas Prácticas y Entorno de Desarrollo")
 
-2. [Curso de Frontend Developer](https://platzi.com/clases/frontend-developer/ "Curso de Javascript básico")
+2. [Curso de Frontend Developer](https://platzi.com/clases/frontend-developer/ "Curso de Frontend Developer")
 
-3. [Curso de Javascript básico](https://platzi.com/clases/basico-javascript/ "Curso de Javascript básico")
+3. [Curso de Javascript Básico](https://platzi.com/clases/basico-javascript/ "Curso de Javascript Básico")
 
 4. [Curso de Fundamentos de JavaScript](https://platzi.com/clases/fundamentos-javascript/ "Curso de Fundamentos de JavaScript")
 

@@ -1,4 +1,9 @@
-function factorial(n) {
+console.log(1)
+setTimeout(() => console.log(2), 0);
+console.log(3)
+
+
+/*function factorial(n) {
 
     if( !this.cache ) this.cache = {}
      
@@ -9,4 +14,4 @@ function factorial(n) {
     this.cache[ n ] = n * factorial( n - 1 )
     console.log(this.cache[n])
     return this.cache[ n ]
-}
+}*/

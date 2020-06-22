@@ -20,8 +20,18 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 ***
 
+### Escuela de Inglés
+
+- [Curso de Inglés Básico: Fundamentos](https://platzi.com/clases/ingles-basico/ "Curso de Inglés Básico: Fundamentos")
+
+- [Curso de Inglés Básico: Conversación](https://platzi.com/clases/ingles-conversacion/ "Curso de Inglés Básico: Conversación")
+
+- [Curso de Inglés Básico: Gramática](https://platzi.com/clases/ingles-gramatica/ "Curso de Inglés Básico: Gramática")
+
+***
+
 ### Escuela de Javascript
-1. [Curso de Prework: Buenas Prácticas y Entorno de Desarrollo](https://platzi.com/clases/prework// "Curso de Prework: Buenas Prácticas y Entorno de Desarrollo")
+1. [Curso de Prework: Buenas Prácticas y Entorno de Desarrollo](https://platzi.com/clases/prework/ "Curso de Prework: Buenas Prácticas y Entorno de Desarrollo")
 
 2. [Curso de Frontend Developer](https://platzi.com/clases/frontend-developer/ "Curso de Javascript básico")
 

@@ -18,6 +18,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso de Spark AR ](https://platzi.com/clases/spark-ar/ "Curso de Spark AR ")
 
+- [Curso de Zoom ](https://platzi.com/clases/zoom/ "Curso de Zoom ")
+
 ***
 
 ### Carrera de Arquitecto Frontend

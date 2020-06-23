@@ -4,6 +4,12 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 ### Cursos
 
+- [Creación de Portafolio y CV](https://platzi.com/clases/portafolios/ "Creación de Portafolio y CV")
+
+- Curso de Lenguaje Audiovisual 2018
+  
+- Curso de Introducción a la Edición con Premiere 2018
+
 - [Fundamentos de bases de datos ](https://platzi.com/clases/bd/ "Fundamentos de bases de datos ")
 
 - [Curso práctido de python: Creación de un CRUD ](https://platzi.com/clases/python-practico/ "Curso práctido de python: Creación de un CRUD ")
@@ -33,6 +39,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 - [Curso de Tailwind CSS](https://platzi.com/clases/tailwind-css/ "Curso de Tailwind CSS")
 
 - [Curso de Single Page Application con Javascript Vanilla](https://platzi.com/clases/spa-javascript/ "Curso de Single Page Application con Javascript Vanilla")
+
+- Curso de React Js 2017
 
 - [Curso de Vue Js ](https://platzi.com/clases/vuejs/ "Curso de Vue Js ")
 

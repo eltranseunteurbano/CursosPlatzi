@@ -6,7 +6,7 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Creación de Portafolio y CV](https://platzi.com/clases/portafolios/ "Creación de Portafolio y CV")
 
-- Curso de Lenguaje Audiovisual 2018
+- [Curso de Lenguaje Audiovisual 2018](https://platzi.com/clases/lenguaje-audiovisual-2018/, "Curso de Lenguaje Audiovisual 2018")
   
 - Curso de Introducción a la Edición con Premiere 2018
 
@@ -17,6 +17,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 - [Curso de Oratoria y Hablar en Público ](https://platzi.com/clases/sapper/ "Curso de Oratoria y Hablar en Público ")
 
 - [Curso de Spark AR ](https://platzi.com/clases/spark-ar/ "Curso de Spark AR ")
+
+***
 
 ### Carrera de Arquitecto Frontend
 
@@ -47,6 +49,7 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 - [Curso de Svelte ](https://platzi.com/clases/svelte/ "Curso de Svelte ")
 
 - [Curso de Sapper ](https://platzi.com/clases/sapper/ "Curso de Sapper ")
+  
 ***
 
 ### Escuela de Inglés
@@ -69,3 +72,9 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 4. [Curso de Fundamentos de JavaScript](https://platzi.com/clases/fundamentos-javascript/ "Curso de Fundamentos de JavaScript")
 
 8. [Curso de React Js](https://platzi.com/clases/react-ejs/ "Curso de React Js")
+
+***
+
+### Escuela de Producción Audiovisual
+
+- [Curso de Introducción al Lenguaje Audiovisual](https://platzi.com/clases/lenguaje-audiovisual/ "Curso de Introducción al Lenguaje Audiovisual")

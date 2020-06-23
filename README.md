@@ -10,15 +10,17 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
   
 - Curso de Introducción a la Edición con Premiere 2018
 
-- [Fundamentos de bases de datos ](https://platzi.com/clases/bd/ "Fundamentos de bases de datos ")
+- [Fundamentos de bases de datos](https://platzi.com/clases/bd/ "Fundamentos de bases de datos")
 
-- [Curso práctido de python: Creación de un CRUD ](https://platzi.com/clases/python-practico/ "Curso práctido de python: Creación de un CRUD ")
+- [Curso práctido de python: Creación de un CRUD](https://platzi.com/clases/python-practico/ "Curso práctido de python: Creación de un CRUD")
 
-- [Curso de Oratoria y Hablar en Público ](https://platzi.com/clases/sapper/ "Curso de Oratoria y Hablar en Público ")
+- [Curso de Oratoria y Hablar en Público](https://platzi.com/clases/sapper/ "Curso de Oratoria y Hablar en Público")
 
-- [Curso de Spark AR ](https://platzi.com/clases/spark-ar/ "Curso de Spark AR ")
+- [Curso de Spark AR ](https://platzi.com/clases/spark-ar/ "Curso de Spark AR")
 
-- [Curso de Zoom ](https://platzi.com/clases/zoom/ "Curso de Zoom ")
+- [Curso de Zoom](https://platzi.com/clases/zoom/ "Curso de Zoom")
+  
+- [Curso de Aprender en Línea Efectivamente](https://platzi.com/clases/aprender/ "Curso de Aprender en Línea Efectivamente")
 
 ***
 

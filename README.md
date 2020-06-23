@@ -77,4 +77,6 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 ### Escuela de Producción Audiovisual
 
+- [Curso de Introducción a la Producción Audiovisual](https://platzi.com/clases/produccion-audiovisual-cinematografica/ "Curso de Introducción a la Producción Audiovisual")
+
 - [Curso de Introducción al Lenguaje Audiovisual](https://platzi.com/clases/lenguaje-audiovisual/ "Curso de Introducción al Lenguaje Audiovisual")

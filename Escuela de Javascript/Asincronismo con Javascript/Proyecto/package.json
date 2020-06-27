@@ -1,0 +1,19 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js",
+    "challenge": "node src/callbacks/Challenge.js",
+    "promise": "clear && node src/Promise/index.js",
+    "promiseC": "clear && node src/Promise/Challenge.js",
+    "await": "clear && node src/async/index.js",
+    "awaitC": "clear && node src/async/challenge.js"
+  },
+  "author": "Jaime Burbano",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

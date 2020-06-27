@@ -54,6 +54,7 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso de Sapper ](https://platzi.com/clases/sapper/ "Curso de Sapper ")
   
+
 ***
 
 ### Escuela de Inglés
@@ -63,6 +64,7 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 - [Curso de Inglés Básico: Conversación](https://platzi.com/clases/ingles-conversacion/ "Curso de Inglés Básico: Conversación")
 
 - [Curso de Inglés Básico: Gramática](https://platzi.com/clases/ingles-gramatica/ "Curso de Inglés Básico: Gramática")
+
 
 ***
 
@@ -74,6 +76,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 3. [Curso de Javascript Básico](https://platzi.com/clases/basico-javascript/ "Curso de Javascript Básico")
 
 4. [Curso de Fundamentos de JavaScript](https://platzi.com/clases/fundamentos-javascript/ "Curso de Fundamentos de JavaScript")
+
+5. [Curso de ECMAScript 6+](https://platzi.com/clases/ecmascript-6/ "Curso de ECMAScript 6+")
 
 8. [Curso de React Js](https://platzi.com/clases/react-ejs/ "Curso de React Js")
 

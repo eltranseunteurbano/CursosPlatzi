@@ -1,0 +1,8 @@
+ECMA SCRIPT 8 Salio en Junio del 2017
+
+se implementó
+ - ASYNC y AWAIT
+ - Object.entries //Para trabajar un objecto como si fuera un arreglo de arreglos
+ - Object.values //Par trabajar con un arreglo de los valores que tiene un objecto
+ - padStart // para agregarle caracteres al inicio de un string. String.padStart(numero de caracteres del nuevo string, caracteres al inicio del string)
+ - padEnd // para agregarle caracteres al final de un string. String.padStart(numero de caracteres del nuevo string, caracteres al inicio del string)

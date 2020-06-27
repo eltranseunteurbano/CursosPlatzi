@@ -1,0 +1,8 @@
+ECMA SCRIPT 9 Salio en el año 2019 mes Junio
+ - Método array.flat para aplanar arreglos que tienen arreglos dentro
+ - Método array.flatMap para obtener cada valor del arreglo y poder manipularlo
+ - Método string.trimStart para eliminar los espacios de un string al inicio
+ - Método string.trimEnd para eliminar los espacios de un string al final
+ - Podemos usar el "error" de un try catch sin haer el cathc(error)
+ - Podemos convertir de arreglos a objetos con el metodo "Object.fromEntries(array)
+ 

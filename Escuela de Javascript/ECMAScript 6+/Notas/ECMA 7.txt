@@ -1,0 +1,5 @@
+ECMA SCRIPT 7 Salio en el año 2016
+
+Se implementó el método "includes" para leer si un arreglo incluye un valor
+
+También se implementó las operaciones a potencia

@@ -1,0 +1,5 @@
+Stage 0: Idea
+Stage 1: Proposal
+Stage 2: Draft
+Stage 3: Candidate
+Stage 4: Ready

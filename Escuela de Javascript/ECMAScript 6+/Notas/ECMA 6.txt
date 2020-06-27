@@ -1,0 +1,14 @@
+ECMA SCRIPT 6 Salio en el año 2015
+
+-Default Params
+-Templates
+-Multilínea
+-Desestructuración de objetos
+-Spread Operator
+-Let y Const
+-Parámetros en objetos
+-Arrow functions
+-Promesas
+-Clases
+-Módulos
+-Function Generator

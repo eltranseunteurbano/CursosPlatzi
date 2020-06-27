@@ -1,0 +1,4 @@
+ECMA SCRIPT 9 Salio en el año 2018
+
+ - Destructuración de objetos y concatenación de diferentes objetos
+ - Regex //Construcción de datos por diferentes bloques

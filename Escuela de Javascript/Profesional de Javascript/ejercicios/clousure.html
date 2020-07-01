@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    //Son mezclas de scope y funciones para hacer funciones que no estan disponibbles globalmente
+
+    (function () {
+      let color = 'green';
+
+      function printColor() {
+        //console.log(color);
+      }
+
+      printColor();
+    })();
+
+    function makeColorPrinter(color) {
+      let colorMessage = `The color is ${color}`
+
+      return function () {
+        console.log(colorMessage)
+      }
+    }
+
+    let greenColorPrinter = makeColorPrinter('green');
+    greenColorPrinter()
+
+    //Variables privadas
+    function makeCounter(n) {
+      let count = n;
+      return {
+        increase: function () {
+          count += 1;
+        },
+        decrease: function () {
+          count -= 1;
+        },
+        getCount: function () {
+          return count
+        },
+      }
+    }
+
+    const counter = makeCounter(7)
+    console.log(counter.getCount())
+  </script>
+</body>
+
+</html>

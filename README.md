@@ -56,7 +56,7 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso de Sapper ](https://platzi.com/clases/sapper/ "Curso de Sapper ")
   
-
+- [Curso de React Js](https://platzi.com/clases/react/ "Curso de React Js")
 ***
 
 ### Escuela de Inglés

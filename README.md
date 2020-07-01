@@ -72,7 +72,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 - [Curso de Inglés Práctico: Grámatica](https://platzi.com/clases/ingles-2/ "Curso de Inglés Práctico: Grámatica")
 
 - [Curso de Escritura en Inglés](https://platzi.com/clases/escritura-ingles/ "Curso de Escritura en Inglés")
-
+  
+- [Curso de Inglés Técnico para Profesionales](https://platzi.com/clases/ingles/ "Curso de Inglés Técnico para Profesionales")
 
 ***
 

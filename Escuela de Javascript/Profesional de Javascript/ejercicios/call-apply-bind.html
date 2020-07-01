@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    function saludar() {
+      console.log(`Hola. Soy ${this.name} ${this.apellido}`)
+    }
+
+    //Le pasamos como paramametro el this a la función con el método "call"
+
+    const jaime = {
+      name: 'Jaime',
+      apellido: 'Burbano'
+    }
+
+    saludar.call(jaime);
+
+    function caminar (metros, direccion) {
+      console.log(`${this.name} camina ${metros} metros hacia ${direccion}`)
+    }
+
+  caminar.call(jaime, 400, 'norte' )
+
+  //Establecer el "this" usando el metodo "apply"
+  //El apply recibé el objeto this y recive un arreglo con los parametros de la función
+
+  caminar.apply(jaime, [-400, 'sur'])
+
+  //Establecer el "this" usando el metodo bind
+  const daniel = {name: 'Daniel', apellido: 'Guerrero'}
+  const danielSaluda = saludar.bind(daniel);
+  danielSaluda();
+
+  const danielCamina = caminar.bind(daniel, 01000, 'este');
+  danielCamina()
+
+  </script>
+  
+</body>
+</html>

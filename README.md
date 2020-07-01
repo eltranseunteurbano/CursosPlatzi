@@ -24,6 +24,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso de Marca Personal](https://platzi.com/clases/marca-personal/ "Curso de Marca Personal")
 
+- [Curso Básico de Python](https://platzi.com/clases/pythonbasico/ "Curso Básico de Python")
+
 ***
 
 ### Carrera de Arquitecto Frontend

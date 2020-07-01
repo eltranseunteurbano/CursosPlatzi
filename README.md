@@ -65,6 +65,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso de Inglés Básico: Gramática](https://platzi.com/clases/ingles-gramatica/ "Curso de Inglés Básico: Gramática")
 
+- [Curso de Escritura en Inglés](https://platzi.com/clases/escritura-ingles/ "Curso de Escritura en Inglés")
+
 
 ***
 

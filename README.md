@@ -22,6 +22,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
   
 - [Curso de Aprender en Línea Efectivamente](https://platzi.com/clases/aprender/ "Curso de Aprender en Línea Efectivamente")
 
+- [Curso de Marca Personal](https://platzi.com/clases/marca-personal/ "Curso de Marca Personal")
+
 ***
 
 ### Carrera de Arquitecto Frontend

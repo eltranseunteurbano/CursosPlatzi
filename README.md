@@ -65,7 +65,11 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
   
 - [Curso de Inglés Básico: Gramática](https://platzi.com/clases/ingles-gramatica/ "Curso de Inglés Básico: Gramática")
   
-- [Diploma de Curso de Inglés Práctico: Fundamentos](https://platzi.com/clases/ingles-1/ "Diploma de Curso de Inglés Práctico: Fundamentos")
+- [Curso de Inglés Práctico: Fundamentos](https://platzi.com/clases/ingles-1/ "Curso de Inglés Práctico: Fundamentos")
+  
+- [Curso de Inglés Práctico: Conversación]([https://platzi.com/clases/ingles-facil-speaking/] "Curso de Inglés Práctico: Conversación")
+
+- [Curso de Inglés Práctico: Grámatica](https://platzi.com/clases/ingles-2/ "Curso de Inglés Práctico: Grámatica")
 
 - [Curso de Escritura en Inglés](https://platzi.com/clases/escritura-ingles/ "Curso de Escritura en Inglés")
 

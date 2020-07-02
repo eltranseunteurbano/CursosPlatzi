@@ -1,0 +1,18 @@
+Los generadores son funciones especiales, pueden pausar su ejecución y luego volver al punto donde se quedaron recordando su scope.
+
+Algunas de sus características:
+
+Los generadores regresan una función.
+Empiezan suspendidos y se tiene que llamar next para que ejecuten.
+Regresan un value y un boolean done que define si ya terminaron.
+yield es la instrucción que regresa un valor cada vez que llamamos a next y detiene la ejecución del generador.
+
+
+para crearse se les agrega un asterisco luego del funtion, por ejemplo
+
+function* simpleGenerator() {}
+
+Estas funciones no son ejecutables, hay que llamar el método next() para decirle a la función que se ejecuten
+
+la palabra reservada "yield" agrega pausas en la ejecución de la función, por lo cual el next haria que la función vaya hasta el siguiente yield
+Este yield puede tener un valor "yield 1;", por lo cual al llegar ahí retornará un valor

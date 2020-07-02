@@ -1,0 +1,19 @@
+{
+  "name": "proyectoFinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
+  },
+  "keywords": [],
+  "author": "Jaime Burbano",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.6"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}

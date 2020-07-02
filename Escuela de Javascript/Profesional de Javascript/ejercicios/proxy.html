@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio proxy</title>
+</head>
+<body>
+  <script src="https://unpkg.com/fast-levenshtein@2.0.6/levenshtein.js"></script>
+  <script>
+
+    const target = {
+      red: 'Rojo',
+      green: 'Verde',
+      blue: 'Azul'
+    }
+
+    const handler = {
+      get(obj, prop) {
+        
+        if(prop in obj) {
+          return obj[prop]
+        }
+
+        const suggestion = [];
+        for (const key in obj) {
+          if(Levenshtein.get(key, prop) <= 3) {
+            suggestion.push(key);
+          }
+        }
+
+        if(suggestion.length) {
+          console.log(`"${prop}" no se encontró. Quizá quisiste decir una las siguientes opciones:`)
+          suggestion.forEach((suggestion) => { console.log(suggestion)})
+        } else {
+          console.log(`No se encontró ningun keyword parecido a "${prop}"`)
+        }
+        return obj[prop]
+      }
+    }
+
+    const p = new Proxy(target, handler)
+
+  </script>
+</body>
+</html>

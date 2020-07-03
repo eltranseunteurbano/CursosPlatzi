@@ -1,6 +1,6 @@
-import MediaPlayer from './MediaPlayer.js';
-import AutoPlay from './plugins/AutoPlay.js';
-import AutoPause from './plugins/AutoPause.js';
+import MediaPlayer from './MediaPlayer.js.js.js';
+import AutoPlay from './plugins/AutoPlay.js.js.js';
+import AutoPause from './plugins/AutoPause.js.js.js';
 
 const video = document.querySelector('video');
 const player = new MediaPlayer({ el: video, plugins: [new AutoPlay(), new AutoPause()]});

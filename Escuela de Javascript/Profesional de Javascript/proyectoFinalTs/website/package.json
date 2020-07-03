@@ -15,5 +15,8 @@
   },
   "browserslist": [
     "last 1 Chrome version"
-  ]
+  ],
+  "dependencies": {
+    "@eltranseunteurbano/platzimediaplayer": "^1.0.0"
+  }
 }

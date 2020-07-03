@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html ejercicios/singleton/index.html"
+    "start": "parcel index.html ejercicios/singleton/index.html ejercicios/observer/index.html"
   },
   "keywords": [],
   "author": "Jaime Burbano",

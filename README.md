@@ -92,6 +92,10 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 5. [Curso de ECMAScript 6+](https://platzi.com/clases/ecmascript-6/ "Curso de ECMAScript 6+")
 
+6. [Curso de Asincronismo con Javascript](https://platzi.com/clases/asincronismo-js/ "Curso de Asincronismo con Javascript")
+
+7. [Curso Profesional de Javascript](https://platzi.com/clases/javascript-profesional/ "Curso Profesional de Javascript")
+
 8. [Curso de React Js](https://platzi.com/clases/react-ejs/ "Curso de React Js")
 
 ***

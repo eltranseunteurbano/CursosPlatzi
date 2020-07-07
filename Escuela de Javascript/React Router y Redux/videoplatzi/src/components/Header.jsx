@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import { logoutRequest } from '../actions';
 import gravatar from '../utils/gravatar';
 
+import PropTypes from 'prop-types';
 import '../assets/styles/components/Header.scss';
 
 import logo from '../assets/static/logo-platzi-video-BW2.png';
@@ -17,7 +18,7 @@ const Header = (props) => {
   const hashUser = Object.keys(user).length > 0;
 
   const handleLogOut = () => {
-    props.logoutRequest();
+    props.logoutRequest({});
   };
 
   return (
@@ -29,14 +30,18 @@ const Header = (props) => {
         <div className='header__menu--profile'>
           {
             hashUser ?
-            <img src={gravatar(user.email)} alt={user.email} /> :
+            <img src={gravatar(user.email)} alt={`Foto del usuario ${user.name}`} /> :
             <img src={userIcon} />
           }
           <p>Perfil</p>
         </div>
         <ul>
           <li>
-            <a href='/'>Cuenta</a>
+            {
+              hashUser ?
+                <a href='/'>{user.name}</a>:
+                <></>
+            }
           </li>
           <li>
             {
@@ -50,6 +55,10 @@ const Header = (props) => {
     </header>
   );
 };
+
+Header.PropTypes = {
+  user: PropTypes.object,
+}
 
 const mapStateToProps = (state) => {
   return {

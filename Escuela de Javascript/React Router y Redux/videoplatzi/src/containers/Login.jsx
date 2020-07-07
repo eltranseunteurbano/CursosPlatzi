@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-
 import { loginRequest } from '../actions';
 
 import '../assets/styles/components/Login.scss';
@@ -27,7 +26,6 @@ const Login = (props) => {
     event.preventDefault();
     props.loginRequest(form);
     props.history.push('/'); //redirect to home
-    console.log(form);
   };
 
   return (

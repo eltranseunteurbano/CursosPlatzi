@@ -25,9 +25,14 @@ const reducer = (state, action) => {
     case actions.logoutRequest:
       return {
         ...state,
-        user: {}
+        user: action.payload
       };
       
+    case actions.registerRequest:
+      return {
+        ...state,
+        user:action.payload
+      }
 
     default:
       return state;

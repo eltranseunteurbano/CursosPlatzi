@@ -23,11 +23,11 @@ const reducer = (state, action) => {
       };
 
     case actions.logoutRequest:
-      console.log(state);
       return {
         ...state,
-        user: {},
+        user: {}
       };
+      
 
     default:
       return state;

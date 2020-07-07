@@ -5,6 +5,7 @@ import { Redirect } from 'react-router-dom';
 import { getVideoSource } from '../actions';
 
 import '../assets/styles/components/Player.scss';
+import Header from '../components/Header';
 
 const Player = (props) => {
   const { id } = props.match.params;
@@ -19,14 +20,17 @@ const Player = (props) => {
   if (loading) return <h2>Cargando...</h2>;
 
   return hashPlaying ? (
-    <div className='Player'>
-      <video controls autoPlay>
-        <source src={props.playing.source} type='video/mp4' />
-      </video>
-      <div className='Player-back'>
-        <button type='button' onClick={() => props.history.goBack()}>Regresar</button>
+    <>
+      <Header />
+      <div className='Player'>
+        <video controls autoPlay>
+          <source src={props.playing.source} type='video/mp4' />
+        </video>
+        <div className='Player-back'>
+          <button type='button' onClick={() => props.history.goBack()}>Regresar</button>
+        </div>
       </div>
-    </div>
+    </>
   ) : <Redirect to='/404/' />;
 };
 

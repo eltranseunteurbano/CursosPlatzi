@@ -15,6 +15,7 @@
 	"author": "Jaime Burbano",
 	"license": "MIT",
 	"dependencies": {
+		"classnames": "^2.2.6",
 		"md5": "^2.2.1",
 		"prop-types": "^15.7.2",
 		"react": "^16.13.1",

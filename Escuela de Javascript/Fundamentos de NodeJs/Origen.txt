@@ -1,0 +1,11 @@
+Es un entorno de ejecución de Javascript fuera del navegador y se crea en el 2009 orientado a servidores.
+
+PORQUE ES IMPORTANTE QUE ESTE FUERA DEL NAVEGADOR
+ - Puedes ejecutarlo en servidores, en IoT, no necesita un anvegador
+ - Se pueden hacen transpiladores, scraping, automatización
+
+CARACTERISTICA
+ - CONCURRENTE: Es monohilo con entradas y salidas asíncronas. Un proceso por cad núcleo del procesador.
+ - MOVOT V8: Funciona sobre el motor V8, creado por google y libre dede del 2008.Se escribio en C++. Convierte código de maquina en tiempo real.
+ - MÓDULOS: Todo lo que no sea sintaxis de programación como if, for, while, son modulos
+ - ORIENTADO A EVENTO: Hay un bucle de eventos que se ejecuta constantemente. Código de forma reactiva.

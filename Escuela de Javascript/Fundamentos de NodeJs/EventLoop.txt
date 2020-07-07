@@ -1,0 +1,7 @@
+QUE ES EL EVENTLOOP
+Es un proceso con un bucle (como un while) que gestiona de forma asíncrona, todos los eventos de tu aplicación
+
+
+ * EVENT QUEU = Es el contenedor de todos los evento que se generan en el código. Y ordena todos los eventos en forma de llegada
+ * EVENT LOOP = Se encarga de resolver los eventos ultra rápidos que llegan del event queue y si no no puede resolverlos rápido los mando al Thread Pool
+ * THREED POOL = Se encarga de gestionar los eventos de forma asíncrona como peticiones, consultas a BD, etc. Cuando un evento termina se devuelve al event loop-

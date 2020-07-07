@@ -25,14 +25,20 @@ const reducer = (state, action) => {
     case actions.logoutRequest:
       return {
         ...state,
-        user: action.payload
+        user: action.payload,
       };
-      
+
     case actions.registerRequest:
       return {
         ...state,
-        user:action.payload
-      }
+        user: action.payload,
+      };
+
+    case actions.getVideoSource:
+      return {
+        ...state,
+        playing: state.trends.concat(state.originals).find((item) => item.id === Number(action.payload)) || [],
+      };
 
     default:
       return state;

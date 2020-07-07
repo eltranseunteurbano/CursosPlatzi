@@ -12,7 +12,7 @@
 		"javascript",
 		"react"
 	],
-	"author": "Andres Campuzano Garzon <campuxano88@gmail.com>",
+	"author": "Jaime Burbano",
 	"license": "MIT",
 	"dependencies": {
 		"md5": "^2.2.1",

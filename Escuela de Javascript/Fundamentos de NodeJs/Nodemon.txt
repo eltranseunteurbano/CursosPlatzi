@@ -1,0 +1,1 @@
+Nodemon es para hacer hot reload en desarrollo y pm 2 en producción

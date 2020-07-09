@@ -1,0 +1,3 @@
+Sirven para crear variables fuera de Node o del programa como TOKENS, ids, correos, información sensible.
+
+Se pueden crear colocando en la consola el nombre de la variable en MAYÚSCULA seguida de un igual y luego su valor. Despues de declarar la variable correr el programa

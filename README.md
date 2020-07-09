@@ -98,6 +98,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 8. [Curso de React Js](https://platzi.com/clases/react-ejs/ "Curso de React Js")
 
+9. [Curso de React Router y Redux](https://platzi.com/clases/react-router-redux/ "Curso de React Router y Redux")
+
 ***
 
 ### Escuela de Producción Audiovisual

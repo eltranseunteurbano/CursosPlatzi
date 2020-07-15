@@ -25,4 +25,4 @@ function borrar(ruta, callback) {
   fs.unlink(ruta, callback);
 }
 
-borrar(__dirname + '/archivo1.txt', console.log);
+borrar(__dirname + '/archivo1.txt', console.log);Conversación

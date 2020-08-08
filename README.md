@@ -26,6 +26,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso Básico de Python](https://platzi.com/clases/pythonbasico/ "Curso Básico de Python")
 
+- [Curso de Figma](https://platzi.com/clases/figma/ "Curso de Figma")
+
 ***
 
 ### Carrera de Arquitecto Frontend

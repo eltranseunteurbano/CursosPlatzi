@@ -1,0 +1,10 @@
+¿Por qué Vue Js?
+
+Su facilidad de aprendizaje y uso con respecto a otros frameworks y librerias como React Js.
+Su rendimiento comparado con Angular Js y la faclidad para usarlo y adaptarlo a proyectos tanto grandes como pequeños ha hecho que vue sea mas popular
+
+*Complejidad*
+Inherente: Todo lo relacionado a requerimientos de la aplicaciones
+Instrumental: Todo lo relacionado a requerimientos técnicos
+
+Se debe tener una complejidad paralela entre Inherente e Instrumental, no puede haber muchas herramientas para algo sencillo o pocas herramientas para algo complejo

@@ -59,26 +59,28 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 - [Curso de Svelte ](https://platzi.com/clases/svelte/ "Curso de Svelte ")
 
 - [Curso de Sapper ](https://platzi.com/clases/sapper/ "Curso de Sapper ")
-  
+
 - [Curso de React Js](https://platzi.com/clases/react/ "Curso de React Js")
 ***
 
 ### Escuela de Inglés
 
+- [Curso de Inglés para Principiantes](https://platzi.com/clases/ingles-principiantes/ "Curso de Inglés para Principiantes")
+
 - [Curso de Inglés Básico: Fundamentos](https://platzi.com/clases/ingles-basico/ "Curso de Inglés Básico: Fundamentos")
 
 - [Curso de Inglés Básico: Conversación](https://platzi.com/clases/ingles-conversacion/ "Curso de Inglés Básico: Conversación")
-  
+
 - [Curso de Inglés Básico: Gramática](https://platzi.com/clases/ingles-gramatica/ "Curso de Inglés Básico: Gramática")
-  
+
 - [Curso de Inglés Práctico: Fundamentos](https://platzi.com/clases/ingles-1/ "Curso de Inglés Práctico: Fundamentos")
-  
+
 - [Curso de Inglés Práctico: Conversación]([https://platzi.com/clases/ingles-facil-speaking/] "Curso de Inglés Práctico: Conversación")
 
 - [Curso de Inglés Práctico: Grámatica](https://platzi.com/clases/ingles-2/ "Curso de Inglés Práctico: Grámatica")
 
 - [Curso de Escritura en Inglés](https://platzi.com/clases/escritura-ingles/ "Curso de Escritura en Inglés")
-  
+
 - [Curso de Inglés Técnico para Profesionales](https://platzi.com/clases/ingles/ "Curso de Inglés Técnico para Profesionales")
 
 ***

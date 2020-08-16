@@ -1,61 +1,67 @@
-<template lang='pug'>
+<template lang="pug">
   #app
-    section.section
-      nav.navbar.has-shadow
-        .container.is-large
-          .field.has-addons.is-expanded
-            .control.is-expanded
-              input.input.islarge.is-large(
-                type="text",
-                placeholder="Buscar canciones"
-                v-model="searchQuery"
-                )
-            .control
-              a.button.is-info.is-large(@click='search') Buscar
-            .control
-              a.button.is-danger.is-large &times;
-            p
-              small {{searchMessage}}
+    pm-header
+
+    pm-loader(v-show="isLoading")
+    section.section(v-show="!isLoading")
+      nav.nav.has-shadow
+        .container
+          input.input.is-large(
+            type="text",
+            placeholder="Buscar canciones",
+            v-model="searchQuery"
+          )
+          a.button.is-info.is-large(@click="search") Buscar
+          a.button.is-danger.is-large &times;
+      .container
+        p
+          small {{ searchMessage }}
 
       .container.results
-        .columns
-          .column(v-for="t in tracks") {{ t.name }} - {{ t.artist }}
+        .columns.is-multiline
+          .column.is-one-quarter(v-for="t in tracks")
+            pm-track(:track="t")
 
+    pm-footer
 </template>
 
 <script>
-  const tracks = [
-    { name: 'Muchacha', artist: 'Luis Alberto SPinetta' },
-    { name: 'Safaera', artist: 'Bad Bunny' },
-    { name: 'Amarillo', artist: 'J Balvin' }
-  ]
-
-  export default {
-    name: 'app',
-    data () {
-      return {
-        searchQuery: '',
-        tracks: []
-      }
-    },
-
-    computed: {
-      searchMessage () {
-        return `Encontrados: ${this.tracks.length}`
-      }
-    },
-
-    methods: {
-      search () {
-        this.tracks = tracks
-      }
+import trackService from '@/services/track'
+import PmFooter from '@/components/layout/Footer.vue'
+import PmHeader from '@/components/layout/Header.vue'
+import PmTrack from '@/components/Track.vue'
+import PmLoader from '@/components/shared/Loader.vue'
+export default {
+  name: 'app',
+  components: { PmFooter, PmHeader, PmTrack, PmLoader },
+  data () {
+    return {
+      searchQuery: '',
+      tracks: [],
+      isLoading: false
+    }
+  },
+  computed: {
+    searchMessage () {
+      return `Encontrados: ${this.tracks.length}`
+    }
+  },
+  methods: {
+    search () {
+      if (!this.searchQuery) { return }
+      this.isLoading = true
+      trackService.search(this.searchQuery)
+        .then(res => {
+          this.tracks = res.tracks.items
+          this.isLoading = false
+        })
     }
   }
+}
 </script>
 
 <style lang="scss">
   @import './scss/main.scss';
-
   .results {
     margin-top: 50px;
   }

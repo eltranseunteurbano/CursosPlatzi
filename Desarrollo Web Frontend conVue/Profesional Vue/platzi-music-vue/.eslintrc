@@ -1,7 +1,7 @@
 {
   "extends": "standard",
 
-  rules: {
+  "rules": {
     "no-new": 0
   },
 

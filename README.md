@@ -28,6 +28,8 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 
 - [Curso de Figma](https://platzi.com/clases/figma/ "Curso de Figma")
 
+- [Curso de Fundamentos de Typescript](https://platzi.com/clases/typescript/ "Curso de Fundamentos de Typescript")
+
 ***
 
 ### Carrera de Arquitecto Frontend

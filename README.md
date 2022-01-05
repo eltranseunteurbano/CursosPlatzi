@@ -29,8 +29,10 @@ Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certific
 - [Curso de Figma](https://platzi.com/clases/figma/ "Curso de Figma")
 
 - [Curso de Fundamentos de Typescript](https://platzi.com/clases/typescript/ "Curso de Fundamentos de Typescript")
-- 
+
 - [Curso Profesional de React Hooks](https://platzi.com/clases/react-hooks/ "Curso Profesional de React Hooks")
+- 
+- [Curso de Docker](https://platzi.com/clases/docker/ "Curso de Docker")
 
 ***
 

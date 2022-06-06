@@ -1,4 +1,6 @@
-﻿# CURSOS PLATZI
+Hola Seres Humanos. He notado que en los últimos meses han hecho varios forks de este proyecto, pero no recuerdo donde deje el link por el que están llegando. ¿Alguién podría dejarme un PR diciendome donde esta ese link? Me genera mucha curiosidad que curso estan haciendo
+
+# CURSOS PLATZI
 
 Archivos de estudio de los diferenes cursos de Platzi y sus respectivos certificados
 
